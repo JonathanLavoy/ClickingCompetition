@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Clicking Competition!</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="titleTheme">
+        <h1 id="titleWords">Clicking Competition!</h1>
+    </div>
+    
+    <div class="nameForm" id="nameForm">
+        <h3>Enter your name to begin!</h3>
+        <input type="text" class="text-input" id="nameInput" name="nameInput" placeholder="Enter Your Name">
+        <button class="btn" id="startBtn" >Start!</button>
+    </div>
+
+    <div class="menu" id="menu">
+        <div class="menuMain">
+            <div class="btnBig" id="b1">1 Button</div>
+            <div class="btnBig" id="b2">2 Buttons</div>
+            <div class="btnBig" id="b3">Mouse</div>
+        </div>
+        <div class="menuBtm">
+            <div class="btnSmall" id="changeName">Change Name</div>
+            <div class="btnSmall" id="changeKeys">Change Keys</div>
+            <div class="btnSmall" id="leader-board">Leaderboard!</div>
+        </div>
+    </div>
+
+    <div class="keys" id="keys">
+        <h3 class="keyInstructions">Click on the button you would like to change and then press the key you would like this button to be!</h3>
+        <p class="keyLabel">Button 1:</p>
+        <p class="keyLabel">Button 2:</p><br>
+        <div class="btnKey" id="btn1">Z</div>
+        <div class="btnKey" id="btn2">X</div><br>
+        <div class="btnDone" id="done">Done</div>
+    </div>
+
+    <div class="game" id="game">
+        <div class="gameTop">
+            <div class="gameTopName" id="name">Name</div>
+            <div class="gameTopScore" id="highScore">High Score: 0 CPM</div>
+        </div>
+        <div class="gameMain">
+            <div class="start" id="start">
+                <div class="instructions" id="instructions">When the timer starts click as fast as possible!</div>
+                <div class="startbtn" id="playBtn">Start!</div>
+                <div class="dropdown"   id="dropmenu">15 Seconds</div>
+                <div class="dropdown-content" id="drop1">15 Seconds</div>
+                <div class="dropdown-content" id="drop2">30 Seconds</div>
+                <div class="dropdown-content bot" id="drop3">60 Seconds</div>
+            </div>
+            <div class="countdown" id="countdown">
+                <div class="time" id="time">3</div>
+                <div class="cpm" id="cpm">CPM: 0</div>
+                <div class="cpm" id="clicks">Clicks: 0</div>
+            </div>
+            <div class="endBtns" id="endBtns">
+                <div class="endBtn" id="tryAgain">Try Again</div>
+                <div class="endBtn" id="submit">Submit</div>
+            </div>
+        </div>
+        <div class="menubtn" id="menu-button">Menu</div>
+    </div>
+
+    <div class="ldrWrapper" id="ldrWrapper">
+        <div class="leaderboard" id="leaderboard">
+            <div class="titles">
+                <div class="category">Rank</div>
+                <div class="category">Name</div>
+                <div class="category">High Score</div>
+                <div class="category">Mode</div>
+                <div class="category">Time</div>
+            </div>
+            
+        </div>
+        <div class="menubtn2" id="menubtn2">Menu</div>
+    </div>
+    
+    <script type="module" src="script.js"></script>
+</body>
+
+
+</html>
