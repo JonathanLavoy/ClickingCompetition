@@ -59,6 +59,7 @@ h3{
     padding: 5px;
     border-radius: 20px;
     border-color: rgb(90, 24, 196);
+    cursor: pointer;
 }
 
 .menu{
@@ -102,6 +103,7 @@ h3{
     margin: 2%;
     margin-top: 15%;
     font-size: 45px;
+    cursor: pointer;
 }
 
 
@@ -121,6 +123,8 @@ h3{
     font-size: 30px;
     line-height: 100px;
     background-color:rgb(45, 6, 109);
+    cursor: pointer;
+
 }
 
 .btnSmall:hover{
@@ -153,6 +157,7 @@ h3{
     font-size:55px;
     text-transform: uppercase;
     line-height: 45px;
+    cursor: pointer;
 }
 
 
@@ -190,6 +195,7 @@ br{
     color: rgb(255, 255, 255);
     font-size:30px;
     line-height: 20px;
+    cursor: pointer;
 }
 
 .btnDone:hover{
@@ -272,6 +278,7 @@ br{
     margin-top: 10%;
     color: rgb(255, 255, 255);
     font-size:50px;
+    cursor: pointer;
 }
 
 .startbtn:hover{
@@ -288,6 +295,7 @@ br{
     width: 40%;
     padding: 5px;
     font-size: 20px;
+    cursor: pointer;
 }
 
 .dropdown-content{
@@ -299,6 +307,7 @@ br{
     width: 35%;
     padding: 3px;
     font-size: 20px;
+    cursor: pointer;
 }
 
 .bot{
@@ -352,6 +361,7 @@ br{
     padding-top: 12px;
     color: rgb(255, 255, 255);
     font-size:25px;
+    cursor: pointer;
 }
 
 .endBtn:hover{
@@ -370,6 +380,7 @@ br{
     margin-top: 5%;
     color: rgb(255, 255, 255);
     font-size:35px;
+    cursor: pointer;
 }
 
 .menubtn2{
@@ -384,6 +395,7 @@ br{
     margin-top: 5%;
     color: rgb(255, 255, 255);
     font-size:35px;
+    cursor: pointer;
 }
 
 .menubtn:hover{
