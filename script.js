@@ -6,6 +6,9 @@ function start(){
 
     user = document.getElementById("nameInput").value;
     document.getElementById("name").innerHTML=user;
+
+    getID();
+    getAllData();
 }
 
 
@@ -410,6 +413,5 @@ function buildLeaderboard(){
     }, 100);
 }
 
-getID();
-getAllData();
+
 
